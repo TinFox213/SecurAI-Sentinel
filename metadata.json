@@ -1,0 +1,5 @@
+{
+  "name": "SecurAI Sentinel",
+  "description": "An advanced AI-powered cybersecurity dashboard that analyzes scan logs, vulnerability reports, and suspicious data to provide real-time threat assessments and actionable remediation steps.",
+  "requestFramePermissions": []
+}

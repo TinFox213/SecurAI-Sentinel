@@ -1,0 +1,71 @@
+
+> securai-sentinel@0.0.0 dev
+> concurrently -c "cyan,magenta" -n "REACT,SERVER" "npm run dev:frontend" "npm run dev:backend"
+
+[REACT] 
+[REACT] > securai-sentinel@0.0.0 dev:frontend
+[REACT] > vite
+[REACT] 
+[SERVER] 
+[SERVER] > securai-sentinel@0.0.0 dev:backend
+[SERVER] > cd server && npm start
+[SERVER] 
+[SERVER] 
+[SERVER] > securai-companion-server@1.0.0 start
+[SERVER] > node index.js
+[SERVER] 
+[SERVER] [dotenv@17.2.3] injecting env (2) from ..\.env.local -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[SERVER] ⚠️ Could not load .env from E:\SecurAI Sentinel\.env: ENOENT: no such file or directory, open 'E:\SecurAI Sentinel\.env'
+[SERVER] ✅ Loaded environment variables from .env.local at E:\SecurAI Sentinel\.env.local
+[SERVER] [dotenv@17.2.3] injecting env (0) from ..\.env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+[SERVER] ⚠️ Optional dependency missing: multer. Falling back to manual multipart parser for PCAP uploads.
+[SERVER] ⚠️ Optional dependency missing: pcap-parser. Using manual PCAP parser fallback.
+[SERVER] ⚠️ INTERNAL_API_TOKEN is not configured. Endpoint auth is currently restricted to local loopback only.
+[REACT] 
+[REACT]   [32m[1mVITE[22m v6.4.2[39m  [2mready in [0m[1m579[22m[2m[0m ms[22m
+[REACT] 
+[REACT]   [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m3000[22m/[39m
+[REACT]   [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.31.161:[1m3000[22m/[39m
+[SERVER] 
+[SERVER] 🚀 SecurAI Companion Server Started
+[SERVER] 📡 API Server: http://localhost:3001
+[SERVER] 🔌 WebSocket: ws://localhost:3001
+[SERVER] 👻 Ghost Ports: 8080, 8443
+[SERVER] 
+[SERVER] ✅ Ready for Network Watchtower requests
+[SERVER] 
+[SERVER] 🔄 ARP monitoring started (10-second intervals)
+[SERVER] 👻 Ghost Port listening on 8080
+[SERVER] 👻 Ghost Port listening on 8443
+[SERVER] 🛡️  Initializing ARP Spoofing Guard...
+[SERVER] 🌐 Default Gateway detected: 192.168.31.1
+[SERVER] ✅ ARP Guard Initialized
+[SERVER]    Gateway IP: 192.168.31.1
+[SERVER]    Trusted MAC: 04:68:74:8A:19:E9
+[REACT] [2m8:23:32 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:23:32 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:23:32 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:23:34 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:23:34 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:23:34 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:23:46 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:23:47 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:23:49 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:23:49 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:24:31 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:24:31 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:24:32 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:24:33 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:24:33 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:24:47 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:24:47 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:24:49 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:24:49 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:25:02 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:25:02 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:25:02 pm[22m [36m[1m[vite][22m[39m server restarted.
+[REACT] [2m8:25:03 pm[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
+[REACT] [2m8:25:03 pm[22m [36m[1m[vite][22m[39m server restarted.
+[SERVER] 🚨 GHOST PORT TRIGGERED: 127.0.0.1:22910 → 8080
+[REACT] npm run dev:frontend exited with code 1
+[SERVER] npm run dev:backend exited with code 1
