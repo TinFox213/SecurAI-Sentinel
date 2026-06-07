@@ -12,3 +12,7 @@ server/node_modules/
 # Build outputs
 dist/
 build/
+
+# Protect internal documentation from being uploaded
+docs/*
+!docs/README.md
